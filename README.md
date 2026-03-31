@@ -6,7 +6,7 @@ A modern and elegant online resume website designed to showcase professional exp
 
 ## Live Website
 
-🌐 **[View Resume](https://sksunisa.github.io/SUNISA-KONGNARONG---CV/)**
+🌐 **[View Resume](https://sksunisa.github.io/SUNISA-CV/)**
 
 ## Technologies
 
