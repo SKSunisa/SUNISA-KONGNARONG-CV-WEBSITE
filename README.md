@@ -2,17 +2,12 @@
 
 ## Purpose
 
-A modern and elegant online resume website designed to showcase professional experience, skills, and education in software engineering and data engineering. Built with responsive design and dark/light theme support for optimal viewing experience across all devices.
+The site serves as a digital representation of my professional profile, highlighting my work experience, technical skills, education, and projects. It is intended to streamline the job application process and provide recruiters with a comprehensive overview of my qualifications.
 
 ## Live Website
 
-🌐 **[View Resume](https://sksunisa.github.io/SUNISA-CV/)**
+🌐 **[https://sksunisa.github.io/SUNISA-CV/](https://sksunisa.github.io/SUNISA-CV/)**
 
-## Technologies
-
-- HTML5, CSS3, JavaScript
-- Responsive Design
-- Dark/Light Theme Toggle
 
 ---
 
