@@ -51,12 +51,16 @@ document.querySelectorAll('img').forEach(img => {
 const themeToggle = document.getElementById('themeToggle');
 const body = document.body;
 
-// Check for saved theme preference or default to dark mode
-const currentTheme = localStorage.getItem('theme') || 'dark';
-if (currentTheme === 'light') {
+// Ensure theme is applied on load (dark is default)
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme === 'light') {
     body.classList.remove('dark-theme');
 } else {
+    // Ensure dark theme is set as default
     body.classList.add('dark-theme');
+    if (!savedTheme) {
+        localStorage.setItem('theme', 'dark');
+    }
 }
 
 // Toggle theme
