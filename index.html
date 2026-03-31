@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sunisa Kongnarong - Software Engineer & Data Engineer Portfolio">
+    <title>Sunisa Kongnarong | Software Engineer & Data Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="nav-logo">SK</span>
+                <span class="nav-name">Sunisa Kongnarong</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#summary" class="nav-link">Summary</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="5"/>
+                    <line x1="12" y1="1" x2="12" y2="3"/>
+                    <line x1="12" y1="21" x2="12" y2="23"/>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                    <line x1="1" y1="12" x2="3" y2="12"/>
+                    <line x1="21" y1="12" x2="23" y2="12"/>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                </svg>
+                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                </svg>
+            </button>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="header-content">
+                <div class="profile-section">
+                    <div class="profile-image-wrapper">
+                        <img src="assets/6431503108_SUNISA.jpg" alt="Sunisa Kongnarong - Software Engineer & Data Engineer" class="profile-image">
+                    </div>
+                    <div class="name-title">
+                        <h1 class="name">Sunisa Kongnarong</h1>
+                        <p class="tagline">Engineering data-driven solutions from pipeline to cloud that transform complexity into clarity</p>
+                        <div class="header-badges">
+                            <span class="header-badge">Python</span>
+                            <span class="header-badge">SQL</span>
+                            <span class="header-badge">Data Pipeline</span>
+                            <span class="header-badge">Cloud</span>
+                            <span class="header-badge">AI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <a href="tel:099-4931915" class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        099-4931915
+                    </a>
+                    <a href="mailto:sunisakongnarongsk@gmail.com" class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                        sunisakongnarongsk@gmail.com
+                    </a>
+                    <a href="https://www.linkedin.com/in/sunisa-kongnarong-314906261" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                            <rect x="2" y="9" width="4" height="12"/>
+                            <circle cx="4" cy="4" r="2"/>
+                        </svg>
+                        LinkedIn Profile
+                    </a>
+                    <a href="https://github.com/SKSunisa" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                        </svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Summary Section -->
+        <section id="summary" class="section summary-section">
+            <h2 class="section-title">Professional Summary</h2>
+            <div class="section-content">
+                <p class="summary-text">
+                    First-class honors graduate in Software Engineering from Mae Fah Luang University, with experience designing and testing ETL Pipelines to support enterprise-level Data Lake system development. Additionally experienced in cross-team project management at an international level, driven to apply data and technology skills to deliver measurable, real-world results.
+                </p>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section education-section">
+            <h2 class="section-title">Education</h2>
+            <div class="section-content">
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <div>
+                            <h3 class="item-title">Mae Fah Luang University</h3>
+                            <p class="item-subtitle">Chiang Rai, Thailand</p>
+                            <p class="item-description">Bachelor of Engineering Programme in Software Engineering</p>
+                        </div>
+                        <span class="item-date">Aug 2021 - Sep 2024</span>
+                    </div>
+                    <ul class="item-details">
+                        <li><strong>GPAX: 3.90/4.00</strong> (First-Class Honors)</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <div>
+                            <h3 class="item-title">Asia University, Taichung, Taiwan</h3>
+                            <p class="item-subtitle">Summer Program</p>
+                            <p class="item-description">Web Design and Digital Storytelling</p>
+                        </div>
+                        <span class="item-date">Aug 2023</span>
+                    </div>
+                    <ul class="item-details">
+                        <li>Score: 97/100</li>
+                        <li>Developed responsive websites using HTML5, CSS3, and JavaScript</li>
+                        <li>Website: <a href="https://sksunisa.github.io/lab-summer-exchange-taiwan-webdev/" target="_blank" rel="noopener noreferrer">https://sksunisa.github.io/lab-summer-exchange-taiwan-webdev/</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section experience-section">
+            <h2 class="section-title">Experience</h2>
+            <div class="section-content">
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <div>
+                            <h3 class="item-title">Work and Travel USA</h3>
+                            <p class="item-subtitle">Housekeeper | East Glacier Park, MT, USA</p>
+                        </div>
+                        <span class="item-date">May 2025 - Sep 2025</span>
+                    </div>
+                    <ul class="item-details">
+                        <li>Received the <strong>Employee Recognition Award</strong> from Pursuit Collection</li>
+                        <li>Managed 10–22 rooms per day or as assigned, handling unexpected tasks flexibly under time constraints</li>
+                        <li>Communicated in English with international guests and team members to ensure an exceptional guest experience</li>
+                        <li>Certificate: <a href="assets/Employee Recognition Award - Work and Travel USA.pdf" target="_blank" rel="noopener noreferrer">View Employee Recognition Award (PDF)</a><br><em style="font-size: 0.9em; color: var(--text-light);">This $100 gift certificate was received as an Employee Recognition Award and used across multiple visits at Pursuit Collection, Glacier National Park (2025 Season)</em></li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <div>
+                            <h3 class="item-title">Icon Connect Company Limited</h3>
+                            <p class="item-subtitle">Cybersecurity Intern | Bangkok, Thailand</p>
+                        </div>
+                        <span class="item-date">Jan 2025 - Apr 2025</span>
+                    </div>
+                    <ul class="item-details">
+                        <li>Performed vulnerability assessments using <strong>Nessus</strong> and prepared detailed reports with remediation recommendations</li>
+                        <li>Drafted technical documents including TOR, POV, Compliance Table, and public relations materials</li>
+                        <li>Served as a speaker in an online cybersecurity seminar for the healthcare industry</li>
+                        <li>Portfolio: <a href="assets/Cooperative Education Portfolio.pdf" target="_blank" rel="noopener noreferrer">View Cooperative Education Portfolio (PDF)</a></li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item featured">
+                    <div class="timeline-header">
+                        <div>
+                            <h3 class="item-title">Data Lake Development Project</h3>
+                            <p class="item-subtitle">Data Engineer (Student Researcher) | Digital Service Project, Mae Fah Luang University</p>
+                        </div>
+                        <span class="item-date">Sep 2023 - Dec 2024</span>
+                    </div>
+                    <ul class="item-details">
+                        <li>Designed and tested <strong>4 ETL Pipeline approaches</strong> (SSIS, KNIME, Airflow + PySpark, Airflow + Pandas) across 3 dataset sizes (10k / 100k / 1M rows) using SQL Server as Staging Area and MySQL as Target Database</li>
+                        <li>Analyzed and summarized performance comparisons of 4 tools: <strong>Airflow + Pandas was the fastest (130 min)</strong>, followed by KNIME (4.8×), SSIS (3.5×), and Airflow + PySpark (7.7×) at 1 million rows</li>
+                        <li>Website: <a href="https://etl-comparison.onrender.com" target="_blank" rel="noopener noreferrer">https://etl-comparison.onrender.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <div>
+                            <h3 class="item-title">Puangun Application</h3>
+                            <p class="item-subtitle">Project Coordinator | Mae Fah Luang University</p>
+                        </div>
+                        <span class="item-date">Jun 2023 - Sep 2023</span>
+                    </div>
+                    <ul class="item-details">
+                        <li>Led a <strong>13-person IT team</strong> to develop a mental health app for ethnic minority youth in Chiang Rai</li>
+                        <li>Delivered both Android & iOS apps and a website within 4 months, supporting <strong>5 user roles and 11 features</strong></li>
+                        <li>Coordinated across 3 departments (IT / Mental Health Experts / Research Center)</li>
+                        <li>Conducted training for <strong>155 ethnic minority youths</strong> and prepared all project documentation</li>
+                        <li>Documentation: <a href="assets/Puangun.pdf" target="_blank" rel="noopener noreferrer">View Puangun Project Documentation (PDF)</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <h2 class="section-title">Skills & Certifications</h2>
+            <div class="section-content">
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Programming Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">SQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Database</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">SQL Server</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">SQLite</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Data Orchestration</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Apache Airflow</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Data Processing</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">PySpark</span>
+                            <span class="skill-tag">Pandas</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">ETL Tools</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">SSIS</span>
+                            <span class="skill-tag">KNIME</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Cybersecurity</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Nessus</span>
+                            <span class="skill-tag">Vulnerability Assessment</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Cloud</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">GCP</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Thai (Native)</span>
+                            <span class="skill-tag">English (Intermediate)</span>
+                            <span class="skill-tag">Chinese (Intermediate)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certifications">
+                    <h3 class="skill-category-title">Certifications</h3>
+                    <div class="certification-list">
+                        <div class="certification-item">
+                            <div class="cert-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                    <path d="M2 17l10 5 10-5"/>
+                                    <path d="M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                            <div class="cert-details">
+                                <p class="cert-name">Google Cloud Fundamentals</p>
+                                <p class="cert-issuer">Granted by Cloud Ace Thailand | Jun 2024</p>
+                                <p class="cert-link"><a href="assets/SUNISA KONGNARONG Google Cloud Training certificate.pdf" target="_blank" rel="noopener noreferrer">View Certificate (PDF) →</a></p>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="cert-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                    <path d="M2 17l10 5 10-5"/>
+                                    <path d="M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                            <div class="cert-details">
+                                <p class="cert-name">Data Engineer</p>
+                                <p class="cert-issuer">Granted by DataCamp | Mar 2026</p>
+                                <p class="cert-link"><a href="assets/Data Engineer certificate.pdf" target="_blank" rel="noopener noreferrer">View Certificate (PDF) →</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; <span id="year"></span> Sunisa Kongnarong. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
