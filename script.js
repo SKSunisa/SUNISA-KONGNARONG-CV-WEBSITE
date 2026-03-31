@@ -53,7 +53,9 @@ const body = document.body;
 
 // Check for saved theme preference or default to dark mode
 const currentTheme = localStorage.getItem('theme') || 'dark';
-if (currentTheme === 'dark') {
+if (currentTheme === 'light') {
+    body.classList.remove('dark-theme');
+} else {
     body.classList.add('dark-theme');
 }
 
